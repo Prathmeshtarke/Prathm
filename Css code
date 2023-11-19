@@ -1,0 +1,62 @@
+h1{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#id1{
+    font-family: Arial, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: blue;
+}
+
+body {
+    background-image: url("Vault of code.png");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.program {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.program h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.view-details {
+    text-align: center;
+}
+
+.view-details button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
